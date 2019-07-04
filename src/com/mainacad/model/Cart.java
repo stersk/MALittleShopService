@@ -1,19 +1,19 @@
 package com.mainacad.model;
 
 public class Cart {
-  private String customer;
+  private User customer;
   private Order order;
 
-  public Cart(String customer, Order order) {
+  public Cart(User customer, Order order) {
     this.customer = customer;
     this.order = order;
   }
 
-  public String getCustomer() {
+  public User getCustomer() {
     return customer;
   }
 
-  public void setCustomer(String customer) {
+  public void setCustomer(User customer) {
     this.customer = customer;
   }
 
